@@ -6,6 +6,7 @@
 
 ## General Info
 This browser based web application to ...
+* My name is Isaac Rudy, very excited to be working with you all.
 	
 ## Technologies
 Technologies used for this project:
