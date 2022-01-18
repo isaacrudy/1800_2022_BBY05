@@ -7,6 +7,7 @@
 ## General Info
 This browser based web application to ...
 * My name is Isaac Rudy, very excited to be working with you all.
+* Hi my name is Bo. I'm excited about this project because it's a good opportunity to collaboratively work on code.
 	
 ## Technologies
 Technologies used for this project:
