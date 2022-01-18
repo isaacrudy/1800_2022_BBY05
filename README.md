@@ -6,8 +6,10 @@
 
 ## General Info
 This browser based web application to ...
-Hi my name is James. I'm excited about this project because it's exciting.
-	
+* My name is Isaac Rudy, very excited to be working with you all.
+* Hi my name is Bo. I'm excited about this project because it's a good opportunity to collaboratively work on code.
+* Hi my name is James. I'm excited about this project because it's exciting.
+
 ## Technologies
 Technologies used for this project:
 * HTML, CSS
