@@ -6,28 +6,33 @@ body {
 
 body > a {
     align-items: center;
+    font-size: x-large;
 }
 
 .item1 {
     grid-area: goNumbers;
+    text-decoration: none;
     text-align: center;
     background-color: orangered;
 }
 
 .item2 {
     grid-area: goMaps;
+    text-decoration: none;
     text-align: center;
     background-color:springgreen;
 }
 
 .item3 {
     grid-area: goInsurance;
+    text-decoration: none;
     text-align: center;
     background-color: blueviolet;
 }
 
 .item4 {
     grid-area: image;
+    text-decoration: none;
     text-align: center;
     justify-content: center;
     align-self: center;
@@ -35,11 +40,13 @@ body > a {
 
 .item5 {
     grid-area: title;
+    text-decoration: none;
     text-align: center;
 }
 
 .item6 {
     grid-area: goInfo;
+    text-decoration: none;
     text-align: center;
     background-color: chartreuse;
 }
@@ -62,4 +69,13 @@ body > a {
     grid-template-areas:
     'image title';
     align-items: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover{
+    background-color:#0275d8;
+    color: black;
 }
