@@ -1,0 +1,65 @@
+html
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+body > a {
+    align-items: center;
+}
+
+.item1 {
+    grid-area: goNumbers;
+    text-align: center;
+    background-color: orangered;
+}
+
+.item2 {
+    grid-area: goMaps;
+    text-align: center;
+    background-color:springgreen;
+}
+
+.item3 {
+    grid-area: goInsurance;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.item4 {
+    grid-area: image;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.item5 {
+    grid-area: title;
+    text-align: center;
+}
+
+.item6 {
+    grid-area: goInfo;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.mainGrid {
+    display: grid;
+    grid-template-areas: 
+    'goNumbers'
+    'goMaps'
+    'goInsurance'
+    'goInfo';
+    font-size: x-large;
+    margin: 0%;
+    padding: 0%;
+}
+
+.subGrid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+    'image title';
+    align-items: center;
+}
