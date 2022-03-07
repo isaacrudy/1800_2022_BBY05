@@ -1,0 +1,55 @@
+.container{
+	max-width: 428px;
+	margin: 0 auto;
+	background-color: #313438;
+	height: 100vh;
+}
+
+a{
+	text-decoration: none;
+}
+
+.contacts-library{
+	background: #0aaaaa;
+}
+
+.contact-name{
+	color: #fff;
+	font-size: 1.2em;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+hr{
+	border: 1px solicontactd #494a4b;
+}
+
+.list__item{
+	list-style: none;
+}
+
+.action{
+	color: #fff;
+	width: 6em;
+	text-align: center;
+	padding: .4em .5em;
+	border-radius: 100px;
+	border-top-left-radius: 0;
+	background-color: #75A85E;
+}
+
+.contact-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5em;
+	transition: 0.3s;
+}
+
+.text{
+	padding-left: 1em;
+}
