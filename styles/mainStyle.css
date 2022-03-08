@@ -13,21 +13,21 @@ body > a {
     grid-area: goNumbers;
     text-decoration: none;
     text-align: center;
-    background-color: orangered;
+    background-color: blue;
 }
 
 .item2 {
     grid-area: goMaps;
     text-decoration: none;
     text-align: center;
-    background-color:springgreen;
+    background-color:yellow;
 }
 
 .item3 {
     grid-area: goInsurance;
     text-decoration: none;
     text-align: center;
-    background-color: blueviolet;
+    background-color:blue;
 }
 
 .item4 {
@@ -48,7 +48,13 @@ body > a {
     grid-area: goInfo;
     text-decoration: none;
     text-align: center;
-    background-color: chartreuse;
+    background-color:yellow;
+}
+
+.item7 {
+    grid-area: myContent;
+    text-decoration: none;
+    background-color: blue;
 }
 
 .mainGrid {
@@ -57,7 +63,8 @@ body > a {
     'goNumbers'
     'goMaps'
     'goInsurance'
-    'goInfo';
+    'goInfo'
+    'myContent';
     font-size: x-large;
     margin: 0%;
     padding: 0%;

@@ -1,3 +1,4 @@
+
 // Initialize the FirebaseUI Widget using Firebase.
 var ui = new firebaseui.auth.AuthUI(firebase.auth());
 
@@ -27,7 +28,7 @@ var uiConfig = {
                 .catch(function (error) {
                     console.log("Error adding new user: " + error);
                 });
-        } else {
+        } else {         
             return true;
         }
         return false;
