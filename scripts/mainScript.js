@@ -1,7 +1,6 @@
 function insertContent(){
     //to check if user is logged in
     firebase.auth().onAuthStateChanged(user => {
-        console.log(user.uid);
         if (user){
             db.collection("Main").doc("myContent")
             .onSnapshot(title => {
@@ -10,6 +9,9 @@ function insertContent(){
                 var icon = document.getElementById("myContentImage");
                 icon.innerHTML += "<img src= './images/user.png' height='80'>"
             })
+        } else {
+            document.getElementById("myContentText").innerHTML = null;
+            document.getElementById("myContentImage").innerHTML = null;
         }
     })
 }
