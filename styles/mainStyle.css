@@ -57,6 +57,12 @@ body > a {
     background-color: blue;
 }
 
+.item8 {
+    grid-area: feedback;
+    text-decoration: none;
+    background-color: yellow;
+}
+
 .mainGrid {
     display: grid;
     grid-template-areas: 
@@ -64,7 +70,8 @@ body > a {
     'goMaps'
     'goInsurance'
     'goInfo'
-    'myContent';
+    'myContent'
+    'feedback';
     font-size: x-large;
     margin: 0%;
     padding: 0%;
