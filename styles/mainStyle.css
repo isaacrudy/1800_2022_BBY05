@@ -15,7 +15,7 @@ body > a {
     grid-area: goNumbers;
     text-decoration: none;
     text-align: center;
-    background-color: blue;
+    background-color:dodgerblue;
 }
 
 .item2 {
@@ -29,7 +29,7 @@ body > a {
     grid-area: goInsurance;
     text-decoration: none;
     text-align: center;
-    background-color:blue;
+    background-color:dodgerblue;
 }
 
 .item4 {
@@ -56,7 +56,7 @@ body > a {
 .item7 {
     grid-area: myContent;
     text-decoration: none;
-    background-color: blue;
+    background-color: dodgerblue;
 }
 
 .item8 {
@@ -92,6 +92,6 @@ a {
 }
 
 a:hover{
-    background-color:#0275d8;
+    background-color:mediumturquoise;
     color: black;
 }
