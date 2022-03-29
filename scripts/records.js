@@ -15,8 +15,8 @@ function populateInfo() {
                     var userAge = userDoc.data().age;
                     var userAllergies = userDoc.data().allergies;
                     var userInsurance = userDoc.data().insurance;
-                    var userCondition = userDoc.data().condition;
-                    var userMedication = userDoc.data().medication;
+                    var userCondition = userDoc.data().conditions;
+                    var userMedication = userDoc.data().medications;
                     var userOther = userDoc.data().other;
 
 
@@ -40,7 +40,7 @@ function populateInfo() {
                         document.getElementById("medicationInput").value = userMedication;
                     }
                     if (userOther != null) {
-                        document.getElementById("otherInput").value = otherCity;
+                        document.getElementById("otherInput").value = userOther;
                     }
                 })
         } else {
@@ -61,8 +61,8 @@ function editUserInfo() {
     userAge = document.getElementById('ageInput').value;     //get the value of the field with id="schoolInput"
     userAllergies = document.getElementById('allergiesInput').value;       //get the value of the field with id="cityInput"
     userInsurance = document.getElementById('insuranceInput').value;
-    userConditions = document.getElementById('conditionInput').value;
-    userMedications = document.getElementById('medicationInput').value;
+    userCondition = document.getElementById('conditionInput').value;
+    userMedication = document.getElementById('medicationInput').value;
     userOther = document.getElementById('otherInput').value;
     currentUser.update({
         nameRecord: userName,
