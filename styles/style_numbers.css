@@ -10,11 +10,11 @@ a{
 }
 
 .contacts-library{
-	background: #0aaaaa;
+	background-color: powderblue;
 }
 
 .contact-name{
-	color: #fff;
+	color: rgb(10, 4, 4);
 	font-size: 1.2em;
 }
 
@@ -39,7 +39,7 @@ hr{
 	padding: .4em .5em;
 	border-radius: 100px;
 	border-top-left-radius: 0;
-	background-color: #75A85E;
+	background-color:firebrick;
 }
 
 .contact-section{
