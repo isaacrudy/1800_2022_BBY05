@@ -1,17 +1,27 @@
+function hospitalMap() {
+    db.collection("Map").doc("HTML")
+        .onSnapshot(title => {
+            console.log("current document data: " + title.data());
+            document.getElementById("theMap").innerHTML = null;
+            document.getElementById("theMap").innerHTML = title.data().hospital;
+        })
+};
 
+function pharmacyMap() {
+    db.collection("Map").doc("HTML")
+        .onSnapshot(title => {
+            console.log("current document data: " + title.data());
+            document.getElementById("theMap").innerHTML = null;
+            document.getElementById("theMap").innerHTML = title.data().pharmacy;
+        })
+}
 
-// function initMap() {
-//     const uluru = { lat: 15, lng: 30};
-//     const map = new google.maps.Map(document.getElementById("map")), {
-//         zoom: 4,
-//         center: uluru,
-//     });
-
-//     const marker = new google.maps.Marker ({
-//         position: uluru,
-//         map: map,
-//     })
-// }
-
-// initMap()
+function icbcMap() {
+    db.collection("Map").doc("HTML")
+            .onSnapshot(title => {
+                console.log("current document data: " + title.data());   
+                document.getElementById("theMap").innerHTML = null;
+                document.getElementById("theMap").innerHTML = title.data().icbc;
+            })
+        };
 

@@ -33,9 +33,6 @@
     <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
 
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8DhRWxQ0bCfTxgbJeD77tnEgdyM78Zr0&callback=initMap">
-        </script>
 
     <link rel="stylesheet" href="./styles/mapStyle.css">
 
@@ -45,20 +42,30 @@
 <body>
     <nav id="navbarPlaceholder"></nav>
 
-    <!-- <iframe id="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d326804.40133875766!2d-123.05001438169278!3d49.27554891276799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5462ce9005f9dfa5%3A0xce9c6c979ef4fca6!2sMetro%20Vancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1647025070928!5m2!1sen!2sca"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-
-    <iframe width="600" height="450" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps/embed/v1/search?key=AIzaSyC8DhRWxQ0bCfTxgbJeD77tnEgdyM78Zr0&q=Hospitals+Global" allowfullscreen>
-    </iframe>
-
+    <div class="buttonGrid">
+        <div class="grid4">
+            <h1>Maps</h1>
+        </div>
+        <div class="grid1">
+            <button id="hospitalButton" onclick="hospitalMap()">Hospitals</button>
+        </div>
+        <div class="grid2">
+            <button id="pharamacyButton" onclick="pharmacyMap()">Pharmacies</button>
+        </div>
+        <div class="grid3">
+            <button id="icbcButton" onclick="icbcMap()">
+                ICBC centers
+            </button>
+        </div>
     </div>
+    <div id="theMap"></div>
 
     <footer id="footerPlaceholder"></footer>
 
+    <script src="./scripts/firebaseAPI_BBY05.js"></script>
     <script src="./scripts/skeleton.js"></script>
     <script src="./scripts/mapScript.js"></script>
+    <script src="./scripts/header.js"></script>
 </body>
 
 </html>

@@ -2,3 +2,35 @@
     height: 400px;
     width: 100%;
 }
+
+.grid1{
+    grid-area: Hospitals;
+    text-align: center;
+}
+
+.grid2{
+    grid-area: Pharmacy;
+    text-align: center;
+}
+
+.grid3{
+    grid-area: ICBC;
+    text-align: center;
+}
+
+.grid4{
+    grid-area: title;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.buttonGrid{
+    display: grid !important;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 75px;
+    grid-template-areas: 
+    'title title title'
+    'Hospitals Pharmacy ICBC';
+    margin: 0%;
+}
