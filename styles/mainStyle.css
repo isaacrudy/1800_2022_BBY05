@@ -100,3 +100,21 @@ a {
     margin: 0%;
     border: 0ch;
 }
+
+.p-5 {
+    padding: 0%;
+    background-image: url("/images/Aerial_Sunset_Vancouver.jpg")
+}
+
+.display-5 {
+    color: white;
+}
+
+.col-md-8 {
+    color: white;
+}
+
+.container-fluid {
+    margin: 0%;
+    padding: 0%;
+}
