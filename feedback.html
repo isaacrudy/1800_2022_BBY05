@@ -31,10 +31,28 @@
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
     <link rel="stylesheet" href="styles/mainStyle.css">
     <link rel="stylesheet" href="styles/feedbackStyle.css">
+    <link rel="stylesheet" href="styles/submitted.css">
 </head>
 
 <body>
   <nav id="navbarPlaceholder"></nav>
+
+  <div class="popup center">
+    <div class="icon">
+      <i class="fa fa-check"></i>
+    </div>
+    <div class="title">
+      Success!!
+    </div>
+    <div class="description">
+      Thank You for Submitting! Your submission has been received.
+    </div>
+    <div class="dismiss-btn">
+      <button id="dismiss-popup-btn">
+        Dismiss
+      </button>
+    </div>
+    </div>
 
   <div class="container-contact100">
     <div class="wrap-contact100">
@@ -64,7 +82,7 @@
             </div>
 
             <div class="container-contact100-form-btn">
-                <button class="contact100-form-btn" type="submit">
+                <button class="contact100-form-btn" type="submit" id="open-popup-btn">
                     <span>
                         Submit
                         <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
@@ -75,10 +93,9 @@
     </div>
 </div>
 
-    
+    <footer id="footerPlaceholder"></footer>
 
-      <footer id="footerPlaceholder"></footer>
-
+    <script src="./scripts/submit.js"></script>
     <script src="./scripts/feedback.js"></script>
     <script src="./scripts/skeleton.js"></script>
     <script src="./scripts/firebaseAPI_BBY05.js"></script>
