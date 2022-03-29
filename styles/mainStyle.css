@@ -91,7 +91,7 @@ a {
     color: black;
 }
 
-a:hover{
+.mainGrid > a:hover{
     background-color:mediumturquoise;
     color: black;
 }
