@@ -42,3 +42,18 @@ a {
 h1{
     font-size: xx-large;
 }
+
+.btn-light:hover {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+
+.grid1 a {
+    padding: 15px;
+}
+
+.grid1 a:hover {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+
