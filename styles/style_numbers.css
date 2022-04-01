@@ -44,6 +44,8 @@ hr{
 .list_description p {
 	font-size: 1.75em;
 	margin-top: 1em;
+	width: 87%;
+	margin-left: 1.4em;
 }
 
 .action{
