@@ -56,7 +56,7 @@ function editUserInfo() {
     document.getElementById('personalInfoFields').disabled = false;
  }
 
- function saveUserInfo() {
+function saveUserInfo() {
     userName = document.getElementById('nameInput').value;       //get the value of the field with id="nameInput"
     userAge = document.getElementById('ageInput').value;     //get the value of the field with id="schoolInput"
     userAllergies = document.getElementById('allergiesInput').value;       //get the value of the field with id="cityInput"
@@ -69,7 +69,7 @@ function editUserInfo() {
         age: userAge,
         allergies: userAllergies,
         insurance: userInsurance,
-        conditions: userConditions,
+        conditions: userCondition,
         medications: userMedications,
         other: userOther
     })
