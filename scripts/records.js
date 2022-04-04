@@ -70,11 +70,11 @@ function saveUserInfo() {
         allergies: userAllergies,
         insurance: userInsurance,
         conditions: userCondition,
-        medications: userMedications,
+        medications: userMedication,
         other: userOther
     })
     .then(() => {
         console.log("Document successfully updated!");
-    })
+    });
     document.getElementById('personalInfoFields').disabled = true;
 }
